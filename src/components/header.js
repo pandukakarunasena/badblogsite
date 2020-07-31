@@ -17,14 +17,13 @@ const Header = () => {
     return (
         <header className = {headerStyles.header}>
             <h1>
-    <Link className = {headerStyles.title} to = '/'>{data.site.siteMetadata.title}👋 </Link>
+    <Link className = {headerStyles.title} to = '/'>Hiiiiiiiii👋 </Link>
             </h1> 
             <nav>
                 <ul className = {headerStyles.navList}> 
-                    <li><Link className = {headerStyles.navItem} activeClassName = {headerStyles.activeNavItem} to = '/'>home 🏠</Link></li>
-                    <li><Link className = {headerStyles.navItem} activeClassName = {headerStyles.activeNavItem} to = '/blog'>blog 📚</Link></li>
-                    <li><Link className = {headerStyles.navItem} activeClassName = {headerStyles.activeNavItem} to = '/contact'>contact 📞</Link></li>
-                    <li><Link className = {headerStyles.navItem} activeClassName = {headerStyles.activeNavItem} to = '/about'>about 🦄</Link></li>
+                    <li><Link className = {headerStyles.navItem} activeClassName = {headerStyles.activeNavItem} to = '/'>Why is this site? 💘 </Link></li>
+                    <li><Link className = {headerStyles.navItem} activeClassName = {headerStyles.activeNavItem} to = '/blog'>How i feel about you 💌 </Link></li>
+                    
                 </ul>   
             </nav>  
         </header>
